@@ -291,12 +291,13 @@ footer {
     font-size: 1.5rem;
     color: var(--pine-tree);
     margin-bottom: 5px;
+    align-items: center;
 }
 
-.team-card p {
+/* .team-card p {
     font-size: 1rem;
-    color: var(--bone); /* Ensures contrast against the card color */
-}
+    color: var(--bone); /* Ensures contrast against the card color 
+} */
 
 /* About Page Background */
 .about-page {
