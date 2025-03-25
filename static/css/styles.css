@@ -35,7 +35,7 @@ body {
     font-family: 'Arial', sans-serif;
     line-height: 1.8;
     /* background: url("/images/index\ bg1.jpg") no-repeat center center fixed; /* Background image styling */
-    background-size: cover; Ensures the image covers the entire viewport */
+    background-size: cover; /*Ensures the image covers the entire viewport */
     color: var(--light-yellow);
     scroll-behavior: smooth;
     perspective: 1500px; /* Perspective for 3D effects */
