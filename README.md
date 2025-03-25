@@ -19,6 +19,14 @@ Daksh Yadav,
 Angad Singh Thind
 
 # Games
+
+
+![WhatsApp Image 2025-03-26 at 12 20 21 AM](https://github.com/user-attachments/assets/32dfb4b6-abc3-4352-be7f-a6c3e564a1f1)
+
+
+![WhatsApp Image 2025-03-26 at 12 20 59 AM](https://github.com/user-attachments/assets/42a1a988-5e6b-45ef-bc47-34d866bbeb42)
+
+
 ![WhatsApp Image 2025-03-26 at 12 17 33 AM](https://github.com/user-attachments/assets/b0fff38b-d4db-4f6c-b669-64368c281618)
 
 
@@ -30,11 +38,3 @@ Angad Singh Thind
 
 ![WhatsApp Image 2025-03-26 at 12 19 52 AM](https://github.com/user-attachments/assets/bb38e5ff-32ea-4857-a6bf-38c8bc17383f)
 
-
-![WhatsApp Image 2025-03-26 at 12 20 21 AM](https://github.com/user-attachments/assets/aa69b0ef-ce8e-424a-ba37-36ad88741c33)
-
-
-![WhatsApp Image 2025-03-26 at 12 20 21 AM](https://github.com/user-attachments/assets/32dfb4b6-abc3-4352-be7f-a6c3e564a1f1)
-
-
-![WhatsApp Image 2025-03-26 at 12 20 59 AM](https://github.com/user-attachments/assets/42a1a988-5e6b-45ef-bc47-34d866bbeb42)
