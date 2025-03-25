@@ -308,7 +308,7 @@ footer {
 
 /* Main Page Background */
 .main-page {
-    background: url("/images/index-bg1.jpg") no-repeat center center fixed; /* Background for the main page */
+    background: url("/images/index\ bg1.jpg") no-repeat center center fixed; /* Background for the main page */
     background-size: cover; /* Ensure the image covers the entire viewport */
     color: var(--light-yellow);
 }
