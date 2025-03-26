@@ -18,7 +18,7 @@
     }
 
     body {
-      background: url("/images/bg login.jpg") no-repeat center center/cover;
+      background: url("{{ url_for('static', filename='images/bg login.jpg') }}") no-repeat center center/cover;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -162,7 +162,7 @@
       <li><a href="#">About</a></li>
       <li><a href="#">Services</a></li>
       <li><a href="#">Contact</a></li>
-      <li><a href="signup.html" class="nav-login">Signup</a></li>
+      <li><a href="{{ url_for('signup') }}" class="nav-login">Signup</a></li>
     </ul>
   </nav>
 
@@ -185,7 +185,7 @@
     </form>
 
     <div class="register">
-      <p><b>Don't have an account?</b> <a href="signup.html"><i><b>Signup</b></i></a></p>
+      <p><b>Don't have an account?</b> <a href="{{ url_for('signup') }}"><i><b>Signup</b></i></a>
     </div>
   </div>
 

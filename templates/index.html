@@ -3,50 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lexercise</title>
-    <link rel="stylesheet" type="text/css" href="../static/css/styles.css">
+    <title>Mindtric</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
+    <link rel="icon" type="image/jpeg" href="{{ url_for('static', filename='images/mindtriclogo.png') }}">
+    <style>
+        .main-page {
+            background: url("{{ url_for('static', filename='images/indexbg.jpg') }}") no-repeat center center fixed;
+            background-size: cover;
+            color: var(--light-yellow);
+        }
+    </style>
 </head>
-<body>
+<body class="main-page">
     <nav class="navbar">
-        <img src="https://via.placeholder.com/150x50" alt="Lexercise Logo" class="logo">
+        <img src="{{ url_for('static', filename='images/minetriclogo.png') }}" style="width: 65px; height: 65px; border-radius: 50%; object-fit: cover;" alt="Mindtric Logo" class="logo">
+
         <ul class="nav-menu">
-            <li><a href="#">About Us</a></li>
-            <li><a href="/games/gamesindex.html">Games</a></li>
-            <li><a href="#">Music Player</a></li>
-            <li><a href="#">Content</a></li>
+            <li><a href="{{ url_for('about') }}">About Us</a></li>
+            <li><a href="{{ url_for('games') }}">Games</a></li>
+            <li><a href="{{ url_for('self_guide') }}">Content</a></li>
+            <li><a href="{{ url_for('musicplayer') }}">Music Player</a></li> <!-- Placeholder; add route if needed -->
         </ul>
         <div>
-            <a href="login.html" class="login-btn">Login</a>
+            <a href="{{ url_for('login') }}" class="login-btn">Login</a>
             <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                 <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
             </svg>
         </div>
     </nav>
 
-    <!-- <main class="hero-section">
+    <main class="hero-section">
         <div class="hero-content">
             <div class="hero-text-container">
                 <div class="hero-text-wrapper">
-                    <span class="success-badge">97% Success Rate</span>
                     <h1 class="hero-title">
-                        97% of students who practice 15 minutes per day for 4 days make at least a year of gains in the first 8 weeks
+                        You are not a burden. You are a human being with a story, a purpose, and a light to share
                     </h1>
                     <p class="hero-description">
-                        All Lexercise students have access to our educational games. Review our services to find the right therapy for your family.
+                        All Mindtric students have access to our educational games. Review our services to find the right therapy for your family.
                     </p>
                 </div>
             </div>
         </div>
-        <div class="hero-image-container">
+        <!-- <div class="hero-image-container">
             <img src="https://via.placeholder.com/500x600?text=Student+Working" alt="Student Working" class="hero-image">
-        </div>
-    </main> -->
+        </div> -->
+    </main>
 
-    <!-- <footer>
+    <footer>
         <div class="cta-buttons">
             <a href="#" class="cta-primary">Learn More</a>
             <a href="#" class="cta-secondary">Our Services</a>
         </div>
-    </footer> -->
+    </footer>
 </body>
 </html>
