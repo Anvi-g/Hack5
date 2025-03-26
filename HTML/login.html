@@ -18,7 +18,7 @@
     }
 
     body {
-      background: url("{{ url_for('static', filename='images/bglogin.jpg') }}") no-repeat center center/cover;
+      background: url("/Hack5-Compiler/images/bg\ login.jpg") no-repeat center center/cover;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -158,11 +158,11 @@
   <nav>
     <div class="logo"><h2>Logo</h2></div>
     <ul>
-      <li><a href="{{ url_for('index') }}">Home</a></li>
-      <li><a href="{{ url_for('about') }}">About</a></li>
-      <!-- <li><a href="#">Services</a></li> 
-      <li><a href="#">Contact</a></li> -->
-      <li><a href="{{ url_for('signup') }}" class="nav-login">Signup</a></li>
+      <li><a href="/Hack5-Compiler/HTML/index.html">Home</a></li>
+      <li><a href="/Hack5-Compiler/HTML/about.html">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Contact</a></li>
+      <li><a href="/Hack5-Compiler/HTML/signup.html" class="nav-login">Signup</a></li>
     </ul>
   </nav>
 
@@ -185,7 +185,7 @@
     </form>
 
     <div class="register">
-      <p><b>Don't have an account?</b> <a href="{{ url_for('signup') }}"><i><b>Signup</b></i></a>
+      <p><b>Don't have an account?</b> <a href="/Hack5-Compiler/HTML/signup.html"><i><b>Signup</b></i></a></p>
     </div>
   </div>
 
